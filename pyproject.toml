@@ -51,7 +51,7 @@ dependencies = [
   "dash-bootstrap-components==2.0.3",
   "defusedxml>=0.7.1",
   "detect-secrets==1.5.0",
-  "dulwich==0.23.0",
+  "dulwich==1.2.9",
   "google-api-python-client==2.163.0",
   "google-auth-httplib2>=0.1,<0.3",
   "jsonschema==4.23.0",
@@ -74,7 +74,7 @@ dependencies = [
   "tzlocal==5.3.1",
   "uuid6==2024.7.10",
   "py-iam-expand==0.1.0",
-  "h2==4.3.0",
+  "h2==4.4.1",
   "oci==2.160.3",
   "alibabacloud_credentials==1.0.3",
   "alibabacloud_ram20150501==1.2.0",
@@ -116,7 +116,7 @@ requires-poetry = ">=2.0"
 
 [tool.poetry.group.dev.dependencies]
 bandit = "1.8.3"
-black = "25.1.0"
+black = "26.10.1"
 coverage = "7.6.12"
 docker = "7.1.0"
 filelock = "3.20.3"
